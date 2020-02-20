@@ -15,6 +15,8 @@ public class AmazonClient {
 
     @Value("${accessKey}")
     private String accessKey;
+	 @Value("${accessKey}")
+    private String accessKey;
     @Value("${secretKey}")
     private String secretKey;
     @Value("${region}")
